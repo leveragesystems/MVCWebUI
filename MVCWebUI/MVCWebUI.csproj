@@ -144,6 +144,17 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\images\glyphicons-halflings-white.png" />
     <Content Include="Content\images\glyphicons-halflings.png" />
+    <Content Include="Content\images\gui\bg_glare.png" />
+    <Content Include="Content\images\gui\carousel_glare.png" />
+    <Content Include="Content\images\gui\carousel_glare_small.png" />
+    <Content Include="Content\images\gui\carousel_nav.png" />
+    <Content Include="Content\images\gui\carousel_shadow.png" />
+    <Content Include="Content\images\large\bugs.jpg" />
+    <Content Include="Content\images\large\pixar.jpg" />
+    <Content Include="Content\images\large\walle.jpg" />
+    <Content Include="Content\images\small\bugs.jpg" />
+    <Content Include="Content\images\small\pixar.jpg" />
+    <Content Include="Content\images\small\walle.jpg" />
     <Content Include="Content\images\welcome6\bg.png" />
     <Content Include="Content\images\welcome6\bg1.png" />
     <Content Include="Content\images\welcome6\bg2.png" />
@@ -214,6 +225,7 @@
     <Content Include="Views\Shared\_CustomerMenu.cshtml" />
     <Content Include="Views\StaticContent\Products.cshtml" />
     <Content Include="Views\StaticContent\ToDoListDisplay.cshtml" />
+    <Content Include="Views\StaticContent\ExampleCarosal.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
