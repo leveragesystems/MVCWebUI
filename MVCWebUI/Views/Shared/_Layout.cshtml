@@ -1,0 +1,60 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Marketing tool for crafts men">    
+    <meta name="author" content="Leverage">   
+    <meta name="viewport" content="width=device-width" />
+     <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/bootstrap")
+    @Styles.Render("~/Content/css")    
+    @Scripts.Render("~/bundles/modernizr")
+   
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/custom")
+    @Scripts.Render("~/bundles/bootstrap") 
+</head>
+<body>
+<div id="top_bar">
+     @Html.Partial("_CustomerMenu") 
+		<span class="icon-bar"></span>
+</div>  
+
+ 
+<div class="container">      
+           
+          
+     @RenderBody()
+    
+</div>
+    @RenderSection("scripts", required: false)
+@*<footer>
+    <div class="container">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+          <div class="row">
+               
+            <div class="span2">
+                <ul class="nav nav-pills">
+                    <li class="first" style="color:#848484">STAY CONNECTED</li>
+                </ul>
+                <hr>
+                <div style="position: relative; margin-top: 25px;">
+                    <a href="https://www.facebook.com/" target="blank"><img src="{{ '/img/facebook.png' | url }}" /></a>
+                    &nbsp;
+                    <a href="https://twitter.com/" target="blank"><img src="{{ '/img/twitter.png' | url }}" /></a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>*@
+<div class="subfooter2"></div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+﻿
+      <ul id="main_menu_nav" class="upper_layer">
+        <li class="spacer"><img class="logo" src=""/></li>
+        <li> @Html.ActionLink("Home", "Index", "Home")</li>
+        
+        
+        <li id="to_do_list">@Html.ActionLink("ToDoList", "ToDoList", "ToDoList")
+            <span id="s2"></span>
+            <ul class="subs">
+                <li>
+                    <ul>
+                        <li id="manage_adsl">@Html.ActionLink("Add ToDoList", "ToDoList", "ToDoList")</li>
+                        <li id="adls_usage">@Html.ActionLink("ToDoList", "page", "StaticContent", new { viewName = "ToDoListDisplay" }, null)</li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li id="links">@Html.ActionLink("Products", "page", "StaticContent", new { viewName = "products" }, new { })</li>
+        <li style="float:right;"> Logout</li>    
+      </ul>
+
+<span id="logout">&nbsp;</span>

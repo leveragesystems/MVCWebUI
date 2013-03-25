@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "ToDoList";
+}
+
+<h2>ToDoList</h2>
+
+
+    
+<p data-bind="css: { error: Title.hasError }"> Title
+    <input data-bind='value: Title, valueUpdate: "afterkeydown"' />
+    <span data-bind='visible: Title.hasError, text: Title.validationMessage'> </span>
+</p>
+
+    <p>Due Date: <input data-bind='value: DueDate' /></p>
+   
+
+     <script type="text/javascript">
+
+         Sprinkle("ToDoLists")
+
+    </script>
+
